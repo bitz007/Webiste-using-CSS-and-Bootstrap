@@ -1,0 +1,413 @@
+
+
+/* ....................navbar........................... */
+#navbar-css{
+
+    padding: 0px 100px;
+    background-color: 	#f5c000 !important;
+
+}
+
+#navbar-css a{
+    padding: 0px 15px;
+    font-size: 20px;
+    color: white;
+}
+
+#navbar-css a:hover{
+    color: rgb(126, 125, 125);
+}
+
+#searchbar{
+   position: relative;
+   left: 7px;
+    border: 0px;
+    border-radius: 0px;
+    color: white;
+    background-color: #ffc300;
+    box-shadow: 5px 9px 9px rgb(131 131 131 / 58%);
+}
+
+#searchbar::placeholder{
+color: white;
+}
+#searchbtn{
+z-index: 99;
+    border: 0px;
+    border-radius: 0px;
+    color: white;
+    box-shadow: 5px 9px 9px rgb(131 131 131 / 58%);
+    background-color: #0161e7;
+}
+
+/* .....................................navbar responsive......................... */
+
+@media only screen and (max-width: 1139px){
+
+    #navbar-css{
+
+        padding: 0px;
+    }
+}
+
+@media only screen and (max-width: 992px){
+    #navbar-css img{
+        width: 120px;
+    }
+}
+
+@media only screen and (max-width: 587px){
+
+
+    .form-control{
+        width: 50% !important;
+
+    }
+#nav-search{
+    margin: 15px 0;
+}
+
+}
+
+/* .....................................Banner.................................. */
+
+#banner{
+
+    background-color: #ffc300;
+    padding: 30px 0;
+
+}
+
+#banner-text{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+#banner-text h2{
+font-size: 60px;
+color: white;
+margin: 30px 0;
+
+}
+
+#banner-text p{
+    color: white;
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+
+#banner-btn1{
+
+    background-color:#0161e7;
+    color: white;
+    margin-right: 10px;
+    border: 2px solid #0161e7;
+    /* border: 2px solid white; */
+}
+
+#banner-btn2{
+
+    border: 2px solid white;
+    color: white;
+
+}
+
+#banner-img img{
+
+    width: 120%;
+}
+
+/* .....................................Banner responsive.................................. */
+
+@media only screen and (max-width: 1540px){
+
+    #banner-img img{
+        margin: 150px 0px;
+    }
+
+}
+
+@media only screen and (max-width: 1150px){
+
+    #banner-text h2{
+        font-size: 40px;
+        margin: 10px 0;
+        
+        }
+
+        #banner-text p{
+            margin-bottom: 20px;
+            font-size: 17px;
+        }
+}
+
+@media only screen and (max-width: 769px){
+    #banner-img img{
+        margin: 0px;
+    }
+
+    #banner-text{
+        text-align: center;
+    }
+    
+}
+
+
+@media only screen and (max-width: 400px){
+    #banner-text h2{
+        font-size: 28px;
+        margin: 5px 0;
+        
+        }
+
+        #banner-text p{
+            margin-bottom: 10px;
+            font-size: 14px;
+        }
+}
+
+/* .............................section catDog....................................... */
+#catDog{
+padding-top: 5%;
+padding-bottom: 5%;
+   
+}
+
+#catDog-img img{
+
+    width: 80%;
+    box-shadow: 30px -25px #ffc300;
+}
+
+
+#catDog-text h2{
+    font-size: 60px;
+    margin: 30px 0;
+
+}
+
+#catDog-text{
+    margin-top: 8%;
+}
+
+#catDog-text p{
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+
+#section-btn{
+    background-color: #ffc300;
+    color: white;
+}
+
+/* .....................................catDog responsive.................................. */
+
+@media only screen and (max-width: 1372px){
+
+    #catDog-text{
+        margin-top: 0%;
+    }
+}
+
+
+@media only screen and (max-width: 1065px){
+
+    #catDog-img img{
+
+        margin-top: 20%;
+    }
+}
+
+@media only screen and (max-width: 907px){
+
+    #catDog-text h2{
+        font-size: 40px;
+        margin: 10px 0;
+    
+    }
+
+    #catDog-text p{
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 769px){
+    #catDog-img img{
+        margin: 15% 0%;
+    }
+    #catDog-img{
+        text-align: center;
+    }
+
+    #catDog-text{
+        text-align: center;
+    }
+    
+}
+
+@media only screen and (max-width: 400px){
+    #catDog-img img{
+
+        width: 80%;
+        box-shadow: 10px -5px #ffc300;
+    }
+}
+
+
+/* ...........................counter........................................... */
+
+
+#counter{
+    background: url(/images/joanna-kosinska-bF2vsubyHcQ-unsplash.jpg) no-repeat center center/cover;
+    padding: 5% 0;
+}
+
+
+#counter-content{
+    color: white;
+    padding: 10px 0;
+}
+
+#counter-content h1{
+    font-size: 80px;
+}
+#counter-content h1{
+    color: #0161e7;
+}
+
+/* ............................posts.......................... */
+
+#posts{
+
+    border: 2px solid #ffc300;
+    margin: 0px 10px;
+    margin-bottom: 30px;
+}
+
+#posts a{
+text-decoration: none;
+color: #f5c000;
+
+}
+#post-headings h2{
+
+font-size: 60px;
+margin-top: 30px;
+
+}
+
+#post-headings p{
+
+    font-size: 20px;
+    margin-bottom: 50px;
+    
+    }
+
+/* .................................footer.................................... */
+
+#footer{
+    background-color: rgb(66, 66, 66)
+   
+}
+
+#footer-links{
+    margin: 25px 0;
+    color: white;
+}
+
+#footer-links a{
+
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+#footer-links p{
+    font-size: 18px;
+    color: white;
+}
+
+#footer-search-box{
+    border: none;
+    width: 50%;
+    font-size: 25px;
+    border: none;
+    background-color: #ffc300;
+}
+
+#footer-btn{
+   
+  width: 12%;
+  background-color: #0161e7;
+  border: none;
+  margin: 10px 0px;
+  position: relative;
+  left: -5px;
+  z-index: 99px;
+  
+}
+
+#footer-btn i{
+    font-size: 25px;
+  color: white;
+    
+}
+
+#socialMedia{
+    font-size: 40px;
+   padding: 16px;
+   
+}
+/* .....................................footer responsive.................................. */
+
+@media only screen and (max-width: 1450px){
+
+    #socialMedia{
+        font-size: 30px;
+       padding: 5px;
+       
+    }
+
+    
+}
+
+@media only screen and (max-width: 1034px){
+
+    #footer-btn{
+
+        width: 15%;
+}
+       
+    }
+
+    
+
+
+
+@media only screen and (max-width: 769px){
+    #socialMedia{
+        font-size: 35px;
+
+    }
+
+    #footer-btn{
+
+        width: 10%;
+}
+
+#footer-search-box{
+    width: 40%;
+}
+}
+
+@media only screen and (max-width: 413px){
+
+    #footer-btn{
+
+        width: 18%;
+}
+
+#footer-search-box{
+    width: 60%;
+}
+}
